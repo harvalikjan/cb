@@ -97,7 +97,6 @@ body {
 }
 #itemList li {
   font-family: 'Source Sans Pro';
-  font-size: 1.2em;
   text-transform: uppercase;
   display: block;
   padding: 4px 0;
@@ -118,8 +117,8 @@ body {
 }
 
 .checkbox {
-  height: 30px;
-  width: 51px;
+  height: 26px;
+  width: 37px;
   background-color: rgb(88, 253, 83);
   border: 0;
   border-radius: 3px;
@@ -133,13 +132,13 @@ body {
     outline: none;
 }
 .delete {
-  height: 30px;
+  height: 27px;
+  width: 37px;
   background-color: rgb(252, 88, 88);
   border: 0;
   font-size: 2em;
   border-radius: 3px;
   margin-right: 5px;
-  padding: 5px 20px 5px 20px;
   font-size: 14px;
   letter-spacing: 0.5px;
   font-family: 'Source Sans Pro', arial;
@@ -169,11 +168,10 @@ body {
 }
 
 #vendorList li {
-  font-family: 'Source Sans Pro';
-  height: 27px;
-  
+  font-family: 'Source Sans Pro';  
   display: block;
-  padding: 4px 0;
+  padding: 3px 0;
+  height: 25px;
 
   background: rgb(122, 143, 253);
   margin:5px 5px 0px 0px;   
@@ -208,7 +206,7 @@ body {
 }
 
 .notifyIcon img{
-  height:20px;
+  height:18px;
   content:url(bell_unactive.png); 
 }
 
@@ -217,7 +215,7 @@ body {
 }
 
 .vendorDetailLink, .leafletLink {
-  height: 28px;
+  height: 25px;
   background-color: rgb(88, 253, 83);
   border: 0;
   border-radius: 3px;
@@ -238,7 +236,7 @@ body {
 }
 
 .leafletCode {
-  visibility: hidden;
+  display:none;
 }
 
 .my-simple-gallery {
