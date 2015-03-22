@@ -1,0 +1,18 @@
+ <widget id="com.example.hello" version="0.0.1">
+        <name>Českéletáky.cz</name>  
+        <description>
+            popisek
+        </description>
+        <preference name="permissions" value="none" /> 
+        <preference name="orientation" value="portrait" />
+        <author email="dev@callback.apache.org" href="http://phonegap.com">
+            Apache Cordova Team
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget>
+
+
+
+
+
