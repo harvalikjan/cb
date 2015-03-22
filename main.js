@@ -113,7 +113,7 @@ function toggleItem() {
 // #letaky
 function loadLetaky() {
 
-	$.get('http://192.168.1.101/cb/vendorlist.html')
+	$.get('http://raw.githubusercontent.com/harvalikjan/cb/master/vendorlist.html')
         .success(function(data) {
         $('#letaky').html(data);
     });
@@ -175,7 +175,7 @@ function showDetail() {
 	// get .vendorName, "Penny market" -> "pennymarket"
 	var vendorName = $(this).prev(".vendorName").text().toLowerCase().replace(" ", "");
 
-	$.get("http://192.168.1.101/cb" +vendorName+".html")
+	$.get("http://raw.githubusercontent.com/harvalikjan/cb/master/" +vendorName+".html")
         .success(function(data) {
         $('#letaky').html(data);
 
@@ -189,7 +189,7 @@ function showLeaflet() {
 	// get .vendorName, "Penny market" -> "pennymarket"
 	var leafletCode = $(this).siblings(".leafletCode").text();
 
-	$.get("http://192.168.1.101/cb" + leafletCode + ".html")
+	$.get("http://raw.githubusercontent.com/harvalikjan/cb/master/" + leafletCode + ".html")
         .success(function(data) {
         $('#letaky').html(data);
 
