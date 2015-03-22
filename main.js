@@ -113,7 +113,7 @@ function toggleItem() {
 // #letaky
 function loadLetaky() {
 
-	$.get('vendorlist.html')
+	$.get('http://192.168.1.101/cb/vendorlist.html')
         .success(function(data) {
         $('#letaky').html(data);
     });
@@ -175,7 +175,7 @@ function showDetail() {
 	// get .vendorName, "Penny market" -> "pennymarket"
 	var vendorName = $(this).prev(".vendorName").text().toLowerCase().replace(" ", "");
 
-	$.get(vendorName+".html")
+	$.get("http://192.168.1.101/cb" +vendorName+".html")
         .success(function(data) {
         $('#letaky').html(data);
 
@@ -189,7 +189,7 @@ function showLeaflet() {
 	// get .vendorName, "Penny market" -> "pennymarket"
 	var leafletCode = $(this).siblings(".leafletCode").text();
 
-	$.get("http://192.168.1.101/ce/ce/" + leafletCode + ".html")
+	$.get("http://192.168.1.101/cb" + leafletCode + ".html")
         .success(function(data) {
         $('#letaky').html(data);
 
