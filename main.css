@@ -41,11 +41,6 @@ body {
   width:75px;
   margin-left:10px; 
 }
-
-.right{
-  float:right;
-}
-
 /*#seznam*/
 
 #form {
@@ -117,7 +112,6 @@ body {
 }
 
 .checkbox {
-  height: 26px;
   width: 37px;
   background-color: rgb(88, 253, 83);
   border: 0;
@@ -132,7 +126,7 @@ body {
     outline: none;
 }
 .delete {
-  height: 27px;
+  height: 23px;
   width: 37px;
   background-color: rgb(252, 88, 88);
   border: 0;
@@ -158,10 +152,9 @@ body {
 
 .vendorName {
   font-weight: bold;
-  font-size: 1.2pxem;
   margin-left:5px;
   margin-top: 2px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .vendorName span {
