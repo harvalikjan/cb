@@ -1,5 +1,5 @@
-var server="";//"http://192.168.1.101/cb/";
 
+var server="";
 function init() {
 
 // toBuy list 
